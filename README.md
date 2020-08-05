@@ -20,6 +20,7 @@ a concurrency of 2 looks like this:
 IN -> PROCESS \
                -> OUT
 IN -> PROCESS /
+```
 
 ```
 cargo build --all --release && strip target/release/runtime-bench && strip target/release/thread-bench
