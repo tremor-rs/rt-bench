@@ -1,0 +1,16 @@
+[workspace]
+
+members = [
+    "runtime-bench",
+    "thread-bench"
+]
+
+[profile.release]
+debug = true
+lto = true
+opt-level = 3
+
+[patch.crates-io]
+# async-channel = { path = "../async-channel" }
+# event-listener = { path = "../event-listener" }
+# async-std = { git = "https://github.com/stjepang/async-std", branch = "experiment" }

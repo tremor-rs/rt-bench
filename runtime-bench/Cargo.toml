@@ -1,0 +1,15 @@
+[package]
+name = "runtime-bench"
+version = "0.1.0"
+authors = ["Heinz N. Gies <heinz@licenser.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = {version = "1.6", features = ["attributes", "unstable"] }
+snmalloc-rs = { version = "0.2", default-features = false, features = ["16mib", "native-cpu"] }
+simd-json = "0.3"
+xz2 = "0.1"
+async-channel = "1"
+chrono = "0.4"
