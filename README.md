@@ -1,5 +1,5 @@
 A simple benchmark exploring a messege passing applicaiton and the performance impact of threads and
-different async runtimes.
+different async runtimes. (extract from https://github.com/async-rs/async-std/issues/848)
 
 
 The setup consists of 3 phases:
